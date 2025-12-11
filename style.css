@@ -1,0 +1,145 @@
+/* Global */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    width: 100%;
+    background: #1a1a1a;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #4aa3ff;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://picsum.photos/1200/700?blur=2') center/cover no-repeat;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #4aa3ff;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #1d7cd1;
+}
+
+/* Sections */
+.section {
+    padding: 80px 40px;
+    background: white;
+    margin: 60px auto;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.section p {
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.7;
+}
+
+/* Service Cards */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #4aa3ff;
+    color: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* Features Section */
+.gallery-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #eef4ff;
+    padding: 25px;
+    width: 280px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.feature h3 {
+    margin-top: 0;
+}
+
+/* Contact */
+.contact-box p {
+    font-size: 18px;
+    margin: 8px 0;
+}
